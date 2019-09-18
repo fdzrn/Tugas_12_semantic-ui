@@ -1,0 +1,27 @@
+<Segment.Group>
+    <Segment>
+      <Header as='h2'>
+        <Image circular src='https://s3-ap-southeast-1.amazonaws.com/niomic/img-v1/c_login_logo.png' /> Patrick
+      </Header>
+    </Segment>
+    <Segment.Group>
+      <Segment>
+         <Form.Field>
+            <label>First Name</label>
+            <input placeholder='First Name' />
+        </Form.Field>
+      /Segment>
+      <Segment>
+        <Form.Field>
+          <label>Last Name</label>
+          <input placeholder='Last Name' />
+        </Form.Field>
+      </Segment>
+      <Segment>
+        <Checkbox label='I agree to the Terms and Conditions' />
+      </Segment>
+    </Segment.Group>
+    <Segment>
+      <Segment><Button type='submit'>Submit</Button></Segment>
+    </Segment>
+</Segment.Group>
